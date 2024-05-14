@@ -1,0 +1,18 @@
+.card-center{
+    position: relative;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-right: 7%;
+    /* background-color: rgb(16, 101, 230); */
+    padding: 10px 10px 10px 10px
+}
+
+#msg_success{
+    color: green;
+    display: none;
+}
+
+#msg_error{
+    color: red;
+    display: none;
+}
