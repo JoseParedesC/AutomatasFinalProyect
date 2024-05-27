@@ -52,17 +52,17 @@ function ValidateDeclarations(){
 
 function validateSyntaxis(){
     variables_globales = []
-    // if(validarInicioyFin()){        
+    if(validarInicioyFin()){        
 
-    //     document.getElementById("msg_success").style.display = "block"
-    //     document.getElementById("msg_error").style.display = "none"
+        document.getElementById("msg_success").style.display = "block"
+        document.getElementById("msg_error").style.display = "none"
 
-    // }else{
+    }else{
 
-    //     document.getElementById("msg_success").style.display = "none"
-    //     document.getElementById("msg_error").style.display = "block"
+        document.getElementById("msg_success").style.display = "none"
+        document.getElementById("msg_error").style.display = "block"
 
-    // }
+    }
 
     let syn = ValidateDeclarations()
     if(!syn.error){        
