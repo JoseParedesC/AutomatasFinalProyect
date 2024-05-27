@@ -1,3 +1,7 @@
+body{
+    background-color: azure;
+}
+
 .card-center{
     position: relative;
     margin-left: 7%;
